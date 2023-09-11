@@ -1,0 +1,71 @@
+.form{
+    
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./fondoimg.jpg);
+}
+.form h1{
+    font-size: 60px;
+    color: red;
+    font-weight: 700;
+}
+.contenedorbusqueda{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.contenedorbusqueda p{
+    color: red;
+    font-size: 18px;
+}
+.contenedorbusqueda label{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.contenedorbusqueda button{
+    height: 26px;
+    width: 70px;
+    background-color:white;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.contenedorcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+}
+.contenedorcard img{
+    height: 270px;
+    width: 250px;
+}
+.contenedorbusqueda input{
+    width: 70px;
+    align-content: center;
+    text-align: center;
+}
+
+.card{
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:white;
+}
+.card p{
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+}
